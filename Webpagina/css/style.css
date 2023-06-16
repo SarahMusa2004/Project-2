@@ -124,10 +124,11 @@ h1{
 }
 
 #leden-link{
+  padding: 10px;
   grid-row: 6;
   background-color:#04AA6D;
   justify-self: center;
-  color: white;
+  border: 2px solid darkgreen;
 }
 
 #alle-leden{
@@ -135,10 +136,12 @@ h1{
 }
 
 #standpunten-link{
+  padding: 10px;
   grid-row: 6;
   grid-column: 3;
   background-color:#04AA6D;
   justify-self: center;
+  border: 2px solid darkgreen;
 }
 
 #standpunten-link-afb{

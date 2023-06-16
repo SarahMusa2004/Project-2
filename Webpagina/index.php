@@ -16,7 +16,7 @@
       <div class="topnav">
       <a class="active" href="#home">Home</a>
       <a href="">Leden</a>
-      <a href="">Standpunten</a>
+      <a href="standpunten.php">Standpunten</a>
       <a href="">Nieuws</a>
       <a href="">Inschrijven</a>
       </div>
