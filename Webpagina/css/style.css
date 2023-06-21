@@ -128,6 +128,7 @@ h1{
   background-color:#04AA6D;
   justify-self: center;
   color: white;
+  border: 2px solid black;
 }
 
 #alle-leden{
@@ -169,6 +170,23 @@ h1{
 }
 
 #footer{
-  background-color:  #333;
-  
+  background-color:  #333; 
+}
+
+#leden {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#leden #images {
+  object-fit: cover;
+  width: 250px;
+  height: 350px;
+  max-width: 100%;
 }
