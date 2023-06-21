@@ -10,12 +10,22 @@ final class dbHandler
   {
     $pdo = new PDO($this->dataSource, $this->userName, $this->password);
 
-    $statement = $pdo->prepare("SELECT Thema, Standpunt, Uitleg FROM standpunten");
+    $statement = $pdo->prepare("SELECT * FROM standpunten");
 
     $statement->execute();
 
     return $statement->fetchAll(PDO::FETCH_ASSOC);
   }
 
+  public function SelectNieuwsArtikel()
+  {
+    $pdo = new PDO($this->dataSource, $this->userName, $this->password);
+
+    $statement = $pdo->prepare("SELECT * FROM nieuws");
+
+    $statement->execute();
+
+    return $statement->fetchAll(PDO::FETCH_ASSOC);
+  }
 
 }

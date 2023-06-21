@@ -15,12 +15,11 @@
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
       <a class="active" href="#home">Home</a>
-      <a href="">Leden</a>
+      <a href="leden.php">Leden</a>
       <a href="standpunten.php">Standpunten</a>
-      <a href="">Nieuws</a>
+      <a href="nieuws.php">Nieuws</a>
       <a href="">Inschrijven</a>
       </div>
-  
   </header>
   <article id="article-home">
     <div id="energietransitie">
@@ -82,7 +81,7 @@
       <p>Europarlementariër Sophie in ‘t Veld heeft besloten D66 te verlaten. <br/>
          Vanmorgen heeft ze het partijbestuur daarover geïnformeerd.
       </p>
-      <a href="https://d66.nl/nieuws/reactie-partijvoorzitter-en-partijleider-op-vertrek-sophie-in-t-veld/">Lees verder</a>
+      <a href="nieuws.php">Lees verder</a>
     </div>
     <div id="nieuwsbericht2">
       <h3>Politiek en publieke organisaties vormen gezamenlijk front tegen agressie en geweld</h3>
@@ -91,7 +90,7 @@
       In een maatschappelijk breed gedragen manifest laten 25 ondertekenaars zien dat de samenleving als één blok achter deze groep zou moeten staan. <br/>
       De deelnemers voelen samen verantwoordelijkheid om ons land veilig te houden en de trend te keren.
       </p>
-      <a href="https://d66.nl/nieuws/gezamenlijk-front-tegen-agressie-en-geweld/">Lees verder</a>
+      <a href="nieuws.php">Lees verder</a>
     </div>
   </article>
   <footer id="footer">

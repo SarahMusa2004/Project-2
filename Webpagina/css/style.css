@@ -223,3 +223,33 @@ h1{
   padding-bottom: 0vh;
   padding-top: 0vh;
 }
+
+.Artikel-div{
+  width: 70%;
+  align-self: center;
+  margin: auto;
+  background-color: rgba(0, 100, 0, 0.455);
+  border-radius: 15px;
+}
+
+.Artikel-titel{
+  color: black;
+  background-color: rgba(0, 100, 0, 0.382);
+  padding: 3vh;
+  margin-top: 7vh;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+}
+
+.Artikel-tekst-kort{
+  text-align: center;
+  padding: 2vh;
+}
+
+.Artikel-hoofdtekst{
+  text-align: center;
+  padding: 2vh;
+  padding-top: 0vh; 
+  padding-bottom: 20%;
+  font-size: 17px;
+}
