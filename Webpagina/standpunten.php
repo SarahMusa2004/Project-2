@@ -21,7 +21,7 @@
       <a href="index.php">Home</a>
       <a href="leden.php">Leden</a>
       <a class="active" href="standpunten.php">Standpunten</a>
-      <a href="">Nieuws</a>
+      <a href="nieuws.php">Nieuws</a>
       <a href="">Inschrijven</a>
       </div>
   </header>
