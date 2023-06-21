@@ -1,5 +1,5 @@
 <?php 
-
+  
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -14,14 +14,14 @@
       <h1>Homepagina</h1>
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="">Leden</a>
-      <a href="">Standpunten</a>
-      <a href="">Nieuws</a>
-      <a href="">Inschrijven</a>
+        <a class="active" href="#home">Home</a>
+        <a href="leden.php">Leden</a>
+        <a href="">Standpunten</a>
+        <a href="">Nieuws</a>
+        <a href="">Inschrijven</a>
       </div>
-  
   </header>
+
   <article id="article-home">
     <div id="energietransitie">
       <h3>Klimaat aanpakken. Dan gaan we vooruit</h3>
@@ -92,6 +92,7 @@
       <a href="https://d66.nl/nieuws/gezamenlijk-front-tegen-agressie-en-geweld/">Lees verder</a>
     </div>
   </article>
+
   <footer id="footer">
     <div id="contact">
       <h2>Contact</h2>
@@ -104,5 +105,6 @@
       <p>070-3566066</p>
     </div>
   </footer>
+  
 </body>
 </html>
