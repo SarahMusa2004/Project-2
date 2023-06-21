@@ -11,12 +11,12 @@
 </head>
 <body >
   <header id="header-homepage">
-      <h1>Homepagina</h1>
+      <h1 id="homepage-titel">Homepagina</h1>
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="leden.php">Leden</a>
-        <a href="">Standpunten</a>
+        <a href="standpunten.php">Standpunten</a>
         <a href="">Nieuws</a>
         <a href="">Inschrijven</a>
       </div>
@@ -73,7 +73,9 @@
     </div>
     <div id="standpunten-link">
       <h3>Lees hier onze standpunten</h3>
-      <img id="standpunten-link-afb" src="images\voor-web-D66-verhouding-795x636-fotos-advertenties-december-2021-scaled.jpg" alt="">
+      <a href="standpunten.php">
+        <img id="standpunten-link-afb" src="images\voor-web-D66-verhouding-795x636-fotos-advertenties-december-2021-scaled.jpg" alt="">
+      </a>
     </div>
     <div id="nieuwsbericht1">
       <h3>Reactie Partijvoorzitter en Partijleider op vertrek Sophie in ‘t Veld</h3>
