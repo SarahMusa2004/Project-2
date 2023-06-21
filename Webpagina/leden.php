@@ -19,7 +19,7 @@ $db = new DbHandler();
       <div class="topnav">
       <a href="index.php">Home</a>
       <a class="active" href="leden.php">Leden</a>
-      <a href="">Standpunten</a>
+      <a href="standpunten.php">Standpunten</a>
       <a href="">Nieuws</a>
       <a href="">Inschrijven</a>
       </div>

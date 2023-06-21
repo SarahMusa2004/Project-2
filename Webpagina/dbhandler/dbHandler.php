@@ -26,6 +26,17 @@ class DbHandler
         return $statement->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    public function SelectStandpunten()
+    {
+        $pdo = new PDO($this->dataSource, $this->userName, $this->password);
+
+        $statement = $pdo->prepare("SELECT Thema, Standpunt, Uitleg FROM standpunten");
+
+        $statement->execute();
+
+        return $statement->fetchAll(PDO::FETCH_ASSOC);
+    }
+
     
     public function MaakLid(string $naam){
         $pdo = new PDO($this->dataSource, $this->userName, $this->password);

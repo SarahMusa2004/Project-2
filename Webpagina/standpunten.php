@@ -8,17 +8,18 @@
 </head>
 <body>
   <?php 
-  include "includes/dbHandler.php";
+  include "dbhandler/dbHandler.php";
   $db = new dbHandler();
 
   $Standpunten = $db->SelectStandpunten();
+  
   ?>
 <header id="header-homepage">
       <h1 id="standpunten-header-titel">Standpunten</h1>
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
       <a href="index.php">Home</a>
-      <a href="">Leden</a>
+      <a href="leden.php">Leden</a>
       <a class="active" href="standpunten.php">Standpunten</a>
       <a href="">Nieuws</a>
       <a href="">Inschrijven</a>
