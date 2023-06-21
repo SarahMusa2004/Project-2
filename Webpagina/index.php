@@ -1,5 +1,5 @@
 <?php 
-
+  
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -21,6 +21,7 @@
       <a href="">Inschrijven</a>
       </div>
   </header>
+
   <article id="article-home">
     <div id="energietransitie">
       <h3>Klimaat aanpakken. Dan gaan we vooruit</h3>
@@ -93,6 +94,7 @@
       <a href="nieuws.php">Lees verder</a>
     </div>
   </article>
+
   <footer id="footer">
     <div id="contact">
       <h2>Contact</h2>
@@ -105,5 +107,6 @@
       <p>070-3566066</p>
     </div>
   </footer>
+  
 </body>
 </html>
