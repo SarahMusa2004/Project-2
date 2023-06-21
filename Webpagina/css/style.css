@@ -10,6 +10,11 @@ body{
   height: 18vh;
 }
 
+#homepage-titel{
+  grid-column: 3/5;
+  justify-self: center;
+}
+
 #logo{ 
   height: 100px;
   grid-column: 1;
@@ -62,6 +67,7 @@ h1{
   padding: 10px ;
   background-color: pink;
   border: 2px solid black;
+  border-radius: 15px;
   grid-row: 2;
   grid-column: 1;
   height: 300px;
@@ -72,6 +78,7 @@ h1{
   grid-column: 3;
   width: 350px;
   height: 320px;
+  border-radius: 15px;
 }
 
 #natuur{
@@ -79,6 +86,7 @@ h1{
   color: white;
   background-color: green;
   border: 2px solid black;
+  border-radius: 15px;
   grid-row: 4;
   grid-column: 1;
   height: 300px;
@@ -89,11 +97,13 @@ h1{
   height: 320px;
   grid-column:3 ;
   grid-row: 4;
+  border-radius: 15px;
 }
 
 #onderwijs{
   padding: 10px ;
   border: 2px solid black;
+  border-radius: 15px;
   background-color:gold;
   grid-row: 2;
   grid-column: 5;
@@ -105,11 +115,13 @@ h1{
   height: 320px;
   grid-column: 7;
   grid-row: 2;
+  border-radius: 15px;
 }
 
 #wonen{
   padding: 10px;
   border: 2px solid black;
+  border-radius: 15px;
   background-color: peachpuff;
   grid-row: 4;
   grid-column: 5;
@@ -121,6 +133,7 @@ h1{
   height: 320px;
   grid-column: 7;
   grid-row: 4;
+  border-radius: 15px;
 }
 
 #leden-link{
@@ -129,10 +142,12 @@ h1{
   background-color:#04AA6D;
   justify-self: center;
   border: 2px solid darkgreen;
+  border-radius: 15px;
 }
 
 #alle-leden{
   width: 300px;
+  border-radius: 15px;
 }
 
 #standpunten-link{
@@ -142,11 +157,13 @@ h1{
   background-color:#04AA6D;
   justify-self: center;
   border: 2px solid darkgreen;
+  border-radius: 15px;
 }
 
 #standpunten-link-afb{
   width: 300px;
   height: 180px;
+  border-radius: 15px;
 }
 
 #nieuwsbericht1{
@@ -156,6 +173,7 @@ h1{
   grid-column: 5;
   border: 2px solid black;
   height: 300px;
+  border-radius: 15px;
 }
 
 #nieuwsbericht2{
@@ -165,6 +183,7 @@ h1{
   grid-column: 7;
   border: 2px solid black;
   height: 300px;
+  border-radius: 15px;
 }
 
 #contact{
@@ -174,4 +193,33 @@ h1{
 #footer{
   background-color:  #333;
   padding: 10px;
+}
+
+#standpunten-header-titel{
+  grid-column: 3/5;
+  justify-self: center;
+}
+
+.standpunt-thema{
+  background-color:rgb(252, 217, 187);
+  padding: 2vh;
+  margin-top: 7vh;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.standpunt-div{
+  background-color:rgba(255, 218, 185, 0.699);
+  border-radius: 15px;
+}
+
+.standpunt-uitleg{
+  padding: 2vh;
+  padding-top: 0vh; 
+  font-size: 16px;
+}
+
+.standpunt-titel{
+  padding: 2vh;
+  padding-bottom: 0vh;
+  padding-top: 0vh;
 }
