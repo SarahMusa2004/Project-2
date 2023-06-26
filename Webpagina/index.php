@@ -14,7 +14,7 @@
       <h1 id="homepage-titel">Homepagina</h1>
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
-      <a class="active" href="#home">Home</a>
+      <a class="active" href="">Home</a>
       <a href="leden.php">Leden</a>
       <a href="standpunten.php">Standpunten</a>
       <a href="nieuws.php">Nieuws</a>
@@ -107,6 +107,5 @@
       <p>070-3566066</p>
     </div>
   </footer>
-  
 </body>
 </html>

@@ -19,9 +19,9 @@ $db = new DbHandler();
       <div class="topnav">
       <a href="index.php">Home</a>
       <a class="active" href="leden.php">Leden</a>
-      <a href="">Standpunten</a>
-      <a href="">Nieuws</a>
-      <a href="">Inschrijven</a>
+      <a href="standpunten.php">Standpunten</a>
+      <a href="nieuws.php">Nieuws</a>
+      <a href="inschrijven.php">Inschrijven</a>
       </div>
   </header>
 
