@@ -8,10 +8,11 @@
 </head>
 <body>
   <?php 
-  include "includes/dbHandler.php";
+  include "dbhandler/dbHandler.php";
   $db = new dbHandler();
 
   $Standpunten = $db->SelectStandpunten();
+  
   ?>
 <header id="header-homepage">
       <h1 id="standpunten-header-titel">Standpunten</h1>
