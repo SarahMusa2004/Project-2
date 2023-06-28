@@ -13,18 +13,18 @@
 
   $Standpunten = $db->SelectStandpunten();
   
-  ?>
-<header id="header-homepage">
-      <h1 id="standpunten-header-titel">Standpunten</h1>
-      <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
-      <div class="topnav">
-      <a href="index.php">Home</a>
-      <a href="leden.php">Leden</a>
-      <a class="active" href="standpunten.php">Standpunten</a>
-      <a href="nieuws.php">Nieuws</a>
-      <a href="">Inschrijven</a>
-      </div>
-  </header>
+  ?> <header id="header-homepage">
+  <h1 id="homepage-titel">Standpunten</h1>
+  <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
+  <div class="topnav">
+  <a href="index.php">Home</a>
+  <a href="leden.php">Leden</a>
+  <a class="active" href="standpunten.php">Standpunten</a>
+  <a href="nieuws.php">Nieuws</a>
+  <a href="inschrijven.php">Inschrijven</a>
+  </div>
+</header>
+
   <article>
     <?php 
     foreach($Standpunten as $Standpunt){
