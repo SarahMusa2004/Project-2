@@ -36,5 +36,17 @@
     }
     ?>
   </article>
+  <footer id="footer">
+    <div id="contact">
+      <h2>Contact</h2>
+      <h3>Landelijke Bureau D66</h3>
+      <p>
+         Lange Houtstraat 11 <br/>
+         2511 CV Den Haag <br/>
+      </p>
+      <h3>Telefoonnummer</h3>
+      <p>070-3566066</p>
+    </div>
+  </footer>
 </body>
 </html>
