@@ -79,20 +79,19 @@
         <a href="standpunten.php">Standpunten</a>
     </div>
     <div id="nieuwsbericht1">
+      <h2>Nieuws</h2>
       <h3>Reactie Partijvoorzitter en Partijleider op vertrek Sophie in ‘t Veld</h3>
       <p>Europarlementariër Sophie in ‘t Veld heeft besloten D66 te verlaten. <br/>
-         Vanmorgen heeft ze het partijbestuur daarover geïnformeerd.
+         Vanmorgen heeft ze het partijbestuur daarover geïnformeerd.<a href="nieuws.php">..Lees verder</a>
       </p>
-      <a href="nieuws.php">Lees verder</a>
     </div>
     <div id="nieuwsbericht2">
+      <h2>Nieuws</h2>
       <h3>Politiek en publieke organisaties vormen gezamenlijk front tegen agressie en geweld</h3>
       <p>
       Maatschappij en politiek slaan de handen ineen tegen agressie en geweld. <br/>
-      In een maatschappelijk breed gedragen manifest laten 25 ondertekenaars zien dat de samenleving als één blok achter deze groep zou moeten staan. <br/>
-      De deelnemers voelen samen verantwoordelijkheid om ons land veilig te houden en de trend te keren.
+      In een maatschappelijk breed gedragen manifest laten 25 ondertekenaars zien dat de samenleving als één blok achter deze groep zou moeten staan.<a href="nieuws.php">..Lees verder</a>
       </p>
-      <a href="nieuws.php">Lees verder</a>
     </div>
   </article>
 
@@ -108,6 +107,5 @@
       <p>070-3566066</p>
     </div>
   </footer>
-  
 </body>
 </html>

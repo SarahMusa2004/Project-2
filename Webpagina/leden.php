@@ -65,8 +65,6 @@ foreach ($leden as $lid) {
       <p>070-3566066</p>
     </div>
   </footer>
-
-
 </body>
 </html>
 
