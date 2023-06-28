@@ -13,6 +13,7 @@ body{
 #homepage-titel{
   grid-column: 3/5;
   justify-self: center;
+  align-self: center;
 }
 
 #logo{ 
@@ -59,7 +60,7 @@ h1{
 #article-home{
   display: grid;
   grid-template-columns: 1fr 0.1fr 1fr 0.2fr 1fr 0.1fr 1fr;
-  grid-template-rows: 0.2fr 1fr 0.2fr 1fr 0.2fr 1fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr 1fr 0.2fr 1fr 0.2fr;
   
 }
 
@@ -218,10 +219,6 @@ h1{
   padding: 10px;
 }
 
-#standpunten-header-titel{
-  grid-column: 3/5;
-  justify-self: center;
-}
 
 .standpunt-thema{
   background-color:rgb(252, 217, 187);
