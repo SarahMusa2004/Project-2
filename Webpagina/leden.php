@@ -3,6 +3,12 @@ include "dbhandler/dbHandler.php";
 $db = new DbHandler();
 
  $ledenData = $db->SelecteerLeden();
+
+ 
+ if(isset($_POST["create"])){
+  $db->MaakLid($_POST["naam"], $_POST["email"]); 
+  }
+
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -12,9 +18,10 @@ $db = new DbHandler();
   <link rel="stylesheet" href="css/style.css">
   <title>D66</title>
 </head>
-<body >
+<body>
+
   <header id="header-homepage">
-      <h1>Leden</h1>
+      <h1 id="homepage-titel">Leden</h1>
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
       <a href="index.php">Home</a>

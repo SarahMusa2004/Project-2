@@ -38,19 +38,12 @@ class DbHandler
     }
 
     
-    public function MaakLid(string $naam){
+    public function MaakLid(string $naam, string $email){
         $pdo = new PDO($this->dataSource, $this->userName, $this->password);
-    
-        // :naam en dergelijke zijn Parameters, door de bindParam worden deze vervangen met onze variabelen.
-        // Let op dat je altijd evenvaak bindParam doe als de hoeveelheid parameters in je query anders krijg je errors
-        // Bij bindParam dien je ook het juiste type op te geven van de parameter.
 
-        //Met behulp van de "bindParam" -methode worden de placeholders in de query gekoppeld aan de waarden die zijn doorgegeven 
-        //aan de "MaakAuto". -functie Het type van elke parameter wordt ook gespecificeerd (integer of string) om de veiligheid
-        //en juiste verwerking van de waarden te waarborgen.
-    
-        $statement = $pdo->prepare("INSERT INTO leden(naam) VALUES(:naam)");
+        $statement = $pdo->prepare("INSERT INTO leden(naam,email) VALUES(:naam, :email)");
         $statement->bindParam("naam", $naam, PDO::PARAM_STR);
+        $statement->bindParam("email", $email, PDO::PARAM_STR);
         $statement->execute();
     }
 }

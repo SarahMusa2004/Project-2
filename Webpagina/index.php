@@ -10,15 +10,15 @@
   <title>D66</title>
 </head>
 <body >
-  <header id="header-homepage">
+<header id="header-homepage">
       <h1 id="homepage-titel">Homepagina</h1>
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
-      <a class="active" href="">Home</a>
+      <a class="active" href="index.php">Home</a>
       <a href="leden.php">Leden</a>
       <a href="standpunten.php">Standpunten</a>
       <a href="nieuws.php">Nieuws</a>
-      <a href="">Inschrijven</a>
+      <a href="inschrijven.php">Inschrijven</a>
       </div>
   </header>
 
@@ -70,12 +70,12 @@
     <div id="leden-link">
       <h3>Bekijk onze leden en word zelf een lid!</h3>
       <img id="alle-leden" src="images\d66-mensen-compleet-1024x576.jpeg" alt="">
+      <a href="leden.php">Leden</a>
     </div>
     <div id="standpunten-link">
       <h3>Lees hier onze standpunten</h3>
-      <a href="standpunten.php">
         <img id="standpunten-link-afb" src="images\voor-web-D66-verhouding-795x636-fotos-advertenties-december-2021-scaled.jpg" alt="">
-      </a>
+        <a href="standpunten.php">Standpunten</a>
     </div>
     <div id="nieuwsbericht1">
       <h3>Reactie Partijvoorzitter en Partijleider op vertrek Sophie in ‘t Veld</h3>
