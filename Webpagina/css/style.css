@@ -285,7 +285,6 @@ h1{
 }
 
 .createform{
-  
   grid-column: 1/3;
   grid-row: 2;
 }
@@ -296,3 +295,32 @@ h1{
   font-family: arial;
 }
 
+.article-contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10% 1fr 10%;
+}
+
+.contacttext{
+  grid-column: 3;
+  grid-row: 1;
+  font-family: arial; 
+}
+
+.contactform {
+  background-color: rgba(244, 175, 115, 0.699);
+  border: 2px solid black;
+}
+
+.contactform input {
+  width: 360px;
+}
+
+form #textarea {
+  height: 100px;
+  width: 360px; /* Adjust the desired height here */
+}
+
+
+
+  

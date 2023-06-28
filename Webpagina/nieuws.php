@@ -21,6 +21,7 @@
       <a href="leden.php">Leden</a>
       <a href="standpunten.php">Standpunten</a>
       <a class="active" href="nieuws.php">Nieuws</a>
+      <a href="contact.php">Contact</a>
       <a href="inschrijven.php">Inschrijven</a>
       </div>
   </header>
