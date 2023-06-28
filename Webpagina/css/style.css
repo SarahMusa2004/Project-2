@@ -5,9 +5,9 @@ body{
 #header-homepage{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr ;
+  grid-template-rows: 13vh 1fr ;
   background-color:darkgreen;
-  height: 18vh;
+
 }
 
 #homepage-titel{
@@ -70,8 +70,6 @@ h1{
   border-radius: 15px;
   grid-row: 2;
   grid-column: 1;
-  height: 38vh;
-  width: 20vw;
 }
 
 #energietransitie-afb{
@@ -90,8 +88,6 @@ h1{
   border-radius: 15px;
   grid-row: 4;
   grid-column: 1;
-  height: 38vh;
-  width: 20vw;
 }
 
 #natuur-afb{
@@ -109,8 +105,6 @@ h1{
   background-color:gold;
   grid-row: 2;
   grid-column: 5;
-  height: 38vh;
-  width: 20vw;
 }
 
 #onderwijs-afb{
@@ -128,8 +122,6 @@ h1{
   background-color: peachpuff;
   grid-row: 4;
   grid-column: 5;
-  height: 38vh;
-  width: 20vw;
 }
 
 #wonen-afb{
@@ -147,8 +139,7 @@ h1{
   justify-self: center;
   border: 2px solid darkgreen;
   border-radius: 15px;
-  height: 38vh;
-  width: 20vw;
+
 }
 
 #alle-leden{
@@ -164,8 +155,6 @@ h1{
   justify-self: center;
   border: 2px solid darkgreen;
   border-radius: 15px;
-  height: 38vh;
-  width: 20vw;
 }
 
 #standpunten-link-afb{
@@ -186,8 +175,6 @@ h1{
   grid-row: 6;
   grid-column: 5;
   border: 2px solid black;
-  height: 38vh;
-  width: 20vw;
   border-radius: 15px;
   text-align: center;
 }
@@ -198,8 +185,6 @@ h1{
   grid-row: 6;
   grid-column: 7;
   border: 2px solid black;
-  height: 38vh;
-  width: 20vw;
   border-radius: 15px;
   text-align: center;
 }
