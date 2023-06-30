@@ -41,7 +41,7 @@
       </form>
    </div>
    </article>
-
+   <br/>
    <footer id="footer">
     <div id="contact">
       <h2>Contact</h2>
