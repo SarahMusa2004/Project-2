@@ -265,7 +265,7 @@ article{
 
 .Artikel-titel{
   color: black;
-  background-color: rgb(0, 100, 0);
+  background-color: rgba(0, 100, 0, 0.153);
   padding: 3vh;
   margin-top: 7vh;
   border-radius: 15px 15px 0px 0px;
