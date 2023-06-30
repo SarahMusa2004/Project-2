@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 21 jun 2023 om 15:22
+-- Gegenereerd op: 28 jun 2023 om 09:55
 -- Serverversie: 10.4.27-MariaDB
 -- PHP-versie: 8.2.0
 
@@ -20,6 +20,34 @@ SET time_zone = "+00:00";
 --
 -- Database: `politieke_partij_d66`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `leden`
+--
+
+CREATE TABLE `leden` (
+  `ledenid` int(50) NOT NULL,
+  `naam` text NOT NULL,
+  `email` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `leden`
+--
+
+INSERT INTO `leden` (`ledenid`, `naam`, `email`) VALUES
+(1, 'Sigrid Kaag', 'sigrid.kaag@tweedekamer.nl'),
+(2, 'Robbert Dijkgraaf ', 'protocol@minocw.nl'),
+(3, 'Rob Jetten', 'r.jetten@tweedekamer.nl'),
+(4, 'Ernst Kuipers ', 'ministervws@minvws.nl'),
+(5, 'Kajsa Ollongren', 'minbzk@minbzk.nl'),
+(6, 'Franc Weerwind', 'jdoe@almere.nl'),
+(7, 'Alexandra van Huffelen', 'alexandra@essent.nl'),
+(8, 'Gunay Uslu', 'uslu@gmail.nl'),
+(9, 'Hans Vijlbrief', 'h.vijlbrief@gmail.com'),
+(34, 'Milad Ahmadi', 'miladfm513@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -74,6 +102,12 @@ INSERT INTO `standpunten` (`standpuntid`, `Thema`, `Standpunt`, `Uitleg`) VALUES
 --
 
 --
+-- Indexen voor tabel `leden`
+--
+ALTER TABLE `leden`
+  ADD PRIMARY KEY (`ledenid`);
+
+--
 -- Indexen voor tabel `nieuws`
 --
 ALTER TABLE `nieuws`
@@ -88,6 +122,12 @@ ALTER TABLE `standpunten`
 --
 -- AUTO_INCREMENT voor geëxporteerde tabellen
 --
+
+--
+-- AUTO_INCREMENT voor een tabel `leden`
+--
+ALTER TABLE `leden`
+  MODIFY `ledenid` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT voor een tabel `nieuws`
