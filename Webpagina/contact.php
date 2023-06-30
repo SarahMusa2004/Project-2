@@ -10,7 +10,7 @@
 
 <body >
   <header id="header-homepage">
-      <h1 id="homepage-titel">Inschrijven</h1>
+      <h1 id="homepage-titel">Contact</h1>
       <img id="logo" src="images\D66-stop-stilstand-stem-vooruit-og2.png"></img>
       <div class="topnav">
       <a href="index.php">Home</a>
@@ -41,7 +41,7 @@
       </form>
    </div>
    </article>
-
+   <br/>
    <footer id="footer">
     <div id="contact">
       <h2>Contact</h2>

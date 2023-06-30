@@ -4,7 +4,9 @@ $db = new DbHandler();
 
  $ledenData = $db->SelecteerLeden();
 
- 
+
+ //ik check hier of er een postverzoek met daarin de variable "create" is doorgestuurd naar de server om te kijken of de create variable bestaat
+ //Bestaat deze variable? dan haal ik de functie maaklid op van dbhandeler om naam en email met postverzoek kan sturen naar de server. 
  if(isset($_POST["create"])){
   $db->MaakLid($_POST["naam"], $_POST["email"]); 
   }
@@ -35,6 +37,7 @@ $db = new DbHandler();
 
   <br/>
 
+<article class="article-leden">  
   <?php
 
 $leden = $db->SelecteerLeden();
@@ -51,7 +54,7 @@ foreach ($leden as $lid) {
 }
 
 ?>
-
+</article>
 
 <footer id="footer">
     <div id="contact">
